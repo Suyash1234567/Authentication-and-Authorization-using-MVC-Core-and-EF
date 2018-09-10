@@ -13,7 +13,7 @@ namespace Authorizationn
 
         protected override void OnConfiguring(DbContextOptionsBuilder dbContextOptionsBuilder)
         {
-            dbContextOptionsBuilder.UseSqlServer(@"data source=localhost\SQLEXPRESS;initial catalog=TestConsoleCrudOperation;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework");
+            dbContextOptionsBuilder.UseSqlServer(@"Data Source=192.168.12.20;Initial Catalog=training2018;Persist Security Info=True;User ID=usr_2018;Password=pwd@123");
         }
     }
 }

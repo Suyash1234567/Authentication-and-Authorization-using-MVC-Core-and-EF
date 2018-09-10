@@ -29,7 +29,7 @@ namespace Authorizationn.Controllers
             LoginTable userInput = allUsers.Where(x => x.EmailId == login.EmailId && x.UserPassword == login.UserPassword).FirstOrDefault();
             if (userInput != null)
             {
-                return RedirectToAction("Dashboard", "Login", userInput);
+                return RedirectToAction("Dashboard","Details",userInput);
             }
             return RedirectToAction("Index");
         }
