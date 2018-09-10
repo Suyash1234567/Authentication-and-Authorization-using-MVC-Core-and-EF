@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Authorizationn.Controllers
 {
-    [Authorize]
+  
     public class DetailsController : Controller
     {
         private  DBOperations dbOperations = new DBOperations();
@@ -20,10 +20,7 @@ namespace Authorizationn.Controllers
             return View();
         }
 
-        public IActionResult Register()
-        {
-            return View();
-        }
+      
 
         [HttpPost]
         public IActionResult Index(UserModel login)
