@@ -1,0 +1,21 @@
+﻿@model UserModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Login Form</h2>
+<form method="post">
+    <div class="container">
+        Email:
+        <div class="row">
+            <input type="text" asp-for="EmailId" />
+        </div>
+        Password:
+        <div class="row">
+            <input type="password" asp-for="UserPassword" />
+        </div>
+        <div class="row">
+            <input type="submit" value="Login" />
+        </div>
+    </div>
+</form>
