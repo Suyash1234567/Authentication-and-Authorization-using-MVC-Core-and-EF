@@ -55,7 +55,7 @@ namespace Authorizationn
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Details}/{action=Index}/{id?}");
+                    template: "{controller=Login}/{action=Index}/{id?}");
             });
 
            

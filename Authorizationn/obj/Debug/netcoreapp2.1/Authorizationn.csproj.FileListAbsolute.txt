@@ -30,5 +30,5 @@ C:\Users\Vivek\Desktop\DotNet\Authorizationn\Authorizationn\obj\Debug\netcoreapp
 C:\Users\Vivek\Desktop\DotNet\Authorizationn\Authorizationn\obj\Debug\netcoreapp2.1\Authorizationn.dll
 C:\Users\Vivek\Desktop\DotNet\Authorizationn\Authorizationn\obj\Debug\netcoreapp2.1\Authorizationn.pdb
 C:\Users\Vivek\Desktop\DotNet\Authorizationn\Authorizationn\obj\Debug\netcoreapp2.1\Authorizationn.csproj.CopyComplete
-C:\Users\Vivek\Desktop\DotNet\Authorizationn\Authorizationn\obj\Debug\netcoreapp2.1\Razor\Views\Details\Dashboard.g.cshtml.cs
-C:\Users\Vivek\Desktop\DotNet\Authorizationn\Authorizationn\obj\Debug\netcoreapp2.1\Razor\Views\Details\Index.g.cshtml.cs
+C:\Users\Vivek\Desktop\DotNet\Authorizationn\Authorizationn\obj\Debug\netcoreapp2.1\Razor\Views\Login\Dashboard.g.cshtml.cs
+C:\Users\Vivek\Desktop\DotNet\Authorizationn\Authorizationn\obj\Debug\netcoreapp2.1\Razor\Views\Login\Index.g.cshtml.cs
